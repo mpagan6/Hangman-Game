@@ -7,44 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="game .js"></script>
+    
+    <script src="assets/javascript/game.js"></script>
 </head>
 <body>
-    
+    <h1> The Psychic Game</h1>
+    <div class="instructions">
+        <h2> Test your psychic Abilities, choose a letter between A and Z before your guesses run out </h2>
+
     <div id="game">
-
-        <h1 class= "gameTitle"> The Psychic Game</h1>
-
-        <p>
-            Guess what letter I'm thinking of
-        </p>
-        <p class="wins">
+        <p id="wins">
             Wins:
         </p>
-        <p class="losses">
+        <p id="losses">
             Losses:
         </p>
-        <p class="guessesLeft">
+        <p id="guessesLeft">
             Guesses left:
         </p>
-        <p class="userGuesses">
+        <p id="yourGuesses">
             Your Guesses so far:
         </p>
-        
-
-Wins: (# of times the user has guessed the letter correctly)
-
-Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
-
-Guesses Left: (# of guesses left. This will update)
-
-Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
-
-When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
-
-When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins)
-
-    </div>
+        </div>
 </body>
 </html>
-

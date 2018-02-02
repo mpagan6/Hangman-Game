@@ -1,11 +1,20 @@
 body {
-    background-color: black;
+    background-image: url(https://cdn.powerofpositivity.com/wp-content/uploads/2015/05/psychic-ability.jpg);
+    font-family: 'Indie Flower', cursive;
+    color: white;
 
 }
 
-    header {
-    color:limegreen;
+    h1 {
+    
     font-size: 90px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
+    
+
+    p {
+        font-weight: bold;
+        font-size: 30px;
+        
+    }   
