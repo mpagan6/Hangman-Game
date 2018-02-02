@@ -1,2 +1,2 @@
-# Hangman-Game
-Rick and Morty Hangman
+# Psychic-Game
+Psychic Game
